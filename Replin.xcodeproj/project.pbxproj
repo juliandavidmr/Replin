@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4AA9D282B0D502900569F62 /* ReplinApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AA9D272B0D502900569F62 /* ReplinApp.swift */; };
+		A4AA9D2A2B0D502900569F62 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AA9D292B0D502900569F62 /* ContentView.swift */; };
+		A4AA9D2C2B0D502900569F62 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AA9D2B2B0D502900569F62 /* Item.swift */; };
+		A4AA9D2E2B0D502A00569F62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4AA9D2D2B0D502A00569F62 /* Assets.xcassets */; };
+		A4AA9D312B0D502A00569F62 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4AA9D302B0D502A00569F62 /* Preview Assets.xcassets */; };
+		A4AA9D3C2B0D502A00569F62 /* ReplinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AA9D3B2B0D502A00569F62 /* ReplinTests.swift */; };
+		A4AA9D462B0D502A00569F62 /* ReplinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AA9D452B0D502A00569F62 /* ReplinUITests.swift */; };
+		A4AA9D482B0D502A00569F62 /* ReplinUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AA9D472B0D502A00569F62 /* ReplinUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4AA9D382B0D502A00569F62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4AA9D1C2B0D502900569F62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4AA9D232B0D502900569F62;
+			remoteInfo = Replin;
+		};
+		A4AA9D422B0D502A00569F62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4AA9D1C2B0D502900569F62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4AA9D232B0D502900569F62;
+			remoteInfo = Replin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A4AA9D242B0D502900569F62 /* Replin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Replin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4AA9D272B0D502900569F62 /* ReplinApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplinApp.swift; sourceTree = "<group>"; };
+		A4AA9D292B0D502900569F62 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A4AA9D2B2B0D502900569F62 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		A4AA9D2D2B0D502A00569F62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4AA9D302B0D502A00569F62 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A4AA9D322B0D502A00569F62 /* Replin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Replin.entitlements; sourceTree = "<group>"; };
+		A4AA9D372B0D502A00569F62 /* ReplinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReplinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4AA9D3B2B0D502A00569F62 /* ReplinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplinTests.swift; sourceTree = "<group>"; };
+		A4AA9D412B0D502A00569F62 /* ReplinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReplinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4AA9D452B0D502A00569F62 /* ReplinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplinUITests.swift; sourceTree = "<group>"; };
+		A4AA9D472B0D502A00569F62 /* ReplinUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplinUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4AA9D212B0D502900569F62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4AA9D342B0D502A00569F62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4AA9D3E2B0D502A00569F62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4AA9D1B2B0D502900569F62 = {
+			isa = PBXGroup;
+			children = (
+				A4AA9D262B0D502900569F62 /* Replin */,
+				A4AA9D3A2B0D502A00569F62 /* ReplinTests */,
+				A4AA9D442B0D502A00569F62 /* ReplinUITests */,
+				A4AA9D252B0D502900569F62 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4AA9D252B0D502900569F62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4AA9D242B0D502900569F62 /* Replin.app */,
+				A4AA9D372B0D502A00569F62 /* ReplinTests.xctest */,
+				A4AA9D412B0D502A00569F62 /* ReplinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4AA9D262B0D502900569F62 /* Replin */ = {
+			isa = PBXGroup;
+			children = (
+				A4AA9D272B0D502900569F62 /* ReplinApp.swift */,
+				A4AA9D292B0D502900569F62 /* ContentView.swift */,
+				A4AA9D2B2B0D502900569F62 /* Item.swift */,
+				A4AA9D2D2B0D502A00569F62 /* Assets.xcassets */,
+				A4AA9D322B0D502A00569F62 /* Replin.entitlements */,
+				A4AA9D2F2B0D502A00569F62 /* Preview Content */,
+			);
+			path = Replin;
+			sourceTree = "<group>";
+		};
+		A4AA9D2F2B0D502A00569F62 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A4AA9D302B0D502A00569F62 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A4AA9D3A2B0D502A00569F62 /* ReplinTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4AA9D3B2B0D502A00569F62 /* ReplinTests.swift */,
+			);
+			path = ReplinTests;
+			sourceTree = "<group>";
+		};
+		A4AA9D442B0D502A00569F62 /* ReplinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A4AA9D452B0D502A00569F62 /* ReplinUITests.swift */,
+				A4AA9D472B0D502A00569F62 /* ReplinUITestsLaunchTests.swift */,
+			);
+			path = ReplinUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4AA9D232B0D502900569F62 /* Replin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4AA9D4B2B0D502A00569F62 /* Build configuration list for PBXNativeTarget "Replin" */;
+			buildPhases = (
+				A4AA9D202B0D502900569F62 /* Sources */,
+				A4AA9D212B0D502900569F62 /* Frameworks */,
+				A4AA9D222B0D502900569F62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Replin;
+			productName = Replin;
+			productReference = A4AA9D242B0D502900569F62 /* Replin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4AA9D362B0D502A00569F62 /* ReplinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4AA9D4E2B0D502A00569F62 /* Build configuration list for PBXNativeTarget "ReplinTests" */;
+			buildPhases = (
+				A4AA9D332B0D502A00569F62 /* Sources */,
+				A4AA9D342B0D502A00569F62 /* Frameworks */,
+				A4AA9D352B0D502A00569F62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4AA9D392B0D502A00569F62 /* PBXTargetDependency */,
+			);
+			name = ReplinTests;
+			productName = ReplinTests;
+			productReference = A4AA9D372B0D502A00569F62 /* ReplinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A4AA9D402B0D502A00569F62 /* ReplinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4AA9D512B0D502A00569F62 /* Build configuration list for PBXNativeTarget "ReplinUITests" */;
+			buildPhases = (
+				A4AA9D3D2B0D502A00569F62 /* Sources */,
+				A4AA9D3E2B0D502A00569F62 /* Frameworks */,
+				A4AA9D3F2B0D502A00569F62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4AA9D432B0D502A00569F62 /* PBXTargetDependency */,
+			);
+			name = ReplinUITests;
+			productName = ReplinUITests;
+			productReference = A4AA9D412B0D502A00569F62 /* ReplinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4AA9D1C2B0D502900569F62 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A4AA9D232B0D502900569F62 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					A4AA9D362B0D502A00569F62 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = A4AA9D232B0D502900569F62;
+					};
+					A4AA9D402B0D502A00569F62 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = A4AA9D232B0D502900569F62;
+					};
+				};
+			};
+			buildConfigurationList = A4AA9D1F2B0D502900569F62 /* Build configuration list for PBXProject "Replin" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4AA9D1B2B0D502900569F62;
+			productRefGroup = A4AA9D252B0D502900569F62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4AA9D232B0D502900569F62 /* Replin */,
+				A4AA9D362B0D502A00569F62 /* ReplinTests */,
+				A4AA9D402B0D502A00569F62 /* ReplinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4AA9D222B0D502900569F62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4AA9D312B0D502A00569F62 /* Preview Assets.xcassets in Resources */,
+				A4AA9D2E2B0D502A00569F62 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4AA9D352B0D502A00569F62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4AA9D3F2B0D502A00569F62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4AA9D202B0D502900569F62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4AA9D2A2B0D502900569F62 /* ContentView.swift in Sources */,
+				A4AA9D2C2B0D502900569F62 /* Item.swift in Sources */,
+				A4AA9D282B0D502900569F62 /* ReplinApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4AA9D332B0D502A00569F62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4AA9D3C2B0D502A00569F62 /* ReplinTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4AA9D3D2B0D502A00569F62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4AA9D482B0D502A00569F62 /* ReplinUITestsLaunchTests.swift in Sources */,
+				A4AA9D462B0D502A00569F62 /* ReplinUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4AA9D392B0D502A00569F62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4AA9D232B0D502900569F62 /* Replin */;
+			targetProxy = A4AA9D382B0D502A00569F62 /* PBXContainerItemProxy */;
+		};
+		A4AA9D432B0D502A00569F62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4AA9D232B0D502900569F62 /* Replin */;
+			targetProxy = A4AA9D422B0D502A00569F62 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A4AA9D492B0D502A00569F62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4AA9D4A2B0D502A00569F62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A4AA9D4C2B0D502A00569F62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Replin/Replin.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Replin/Preview Content\"";
+				DEVELOPMENT_TEAM = 938YKFVUQX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anlijudavid.Replin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A4AA9D4D2B0D502A00569F62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Replin/Replin.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Replin/Preview Content\"";
+				DEVELOPMENT_TEAM = 938YKFVUQX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anlijudavid.Replin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A4AA9D4F2B0D502A00569F62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 938YKFVUQX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anlijudavid.ReplinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Replin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Replin";
+			};
+			name = Debug;
+		};
+		A4AA9D502B0D502A00569F62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 938YKFVUQX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anlijudavid.ReplinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Replin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Replin";
+			};
+			name = Release;
+		};
+		A4AA9D522B0D502A00569F62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 938YKFVUQX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anlijudavid.ReplinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Replin;
+			};
+			name = Debug;
+		};
+		A4AA9D532B0D502A00569F62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 938YKFVUQX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anlijudavid.ReplinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Replin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4AA9D1F2B0D502900569F62 /* Build configuration list for PBXProject "Replin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4AA9D492B0D502A00569F62 /* Debug */,
+				A4AA9D4A2B0D502A00569F62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4AA9D4B2B0D502A00569F62 /* Build configuration list for PBXNativeTarget "Replin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4AA9D4C2B0D502A00569F62 /* Debug */,
+				A4AA9D4D2B0D502A00569F62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4AA9D4E2B0D502A00569F62 /* Build configuration list for PBXNativeTarget "ReplinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4AA9D4F2B0D502A00569F62 /* Debug */,
+				A4AA9D502B0D502A00569F62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4AA9D512B0D502A00569F62 /* Build configuration list for PBXNativeTarget "ReplinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4AA9D522B0D502A00569F62 /* Debug */,
+				A4AA9D532B0D502A00569F62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4AA9D1C2B0D502900569F62 /* Project object */;
+}
