@@ -2,7 +2,7 @@
 //  Item.swift
 //  Replin
 //
-//  Created by Julian Creha on 21/11/23.
+//  Created by Julian on 21/11/23.
 //
 
 import Foundation

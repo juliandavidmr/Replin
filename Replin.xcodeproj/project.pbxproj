@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A45DE80D2B0D5F6400BCA91A /* FileInspector.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45DE80C2B0D5F6400BCA91A /* FileInspector.swift */; };
+		A48D23052B10130200370109 /* FileUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48D23042B10130200370109 /* FileUtils.swift */; };
+		A48D23072B10136B00370109 /* KeyValueItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48D23062B10136B00370109 /* KeyValueItem.swift */; };
+		A48D23092B101E4B00370109 /* EditableText.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48D23082B101E4B00370109 /* EditableText.swift */; };
 		A4AA9D282B0D502900569F62 /* ReplinApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AA9D272B0D502900569F62 /* ReplinApp.swift */; };
 		A4AA9D2A2B0D502900569F62 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AA9D292B0D502900569F62 /* ContentView.swift */; };
 		A4AA9D2C2B0D502900569F62 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AA9D2B2B0D502900569F62 /* Item.swift */; };
@@ -15,6 +19,7 @@
 		A4AA9D3C2B0D502A00569F62 /* ReplinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AA9D3B2B0D502A00569F62 /* ReplinTests.swift */; };
 		A4AA9D462B0D502A00569F62 /* ReplinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AA9D452B0D502A00569F62 /* ReplinUITests.swift */; };
 		A4AA9D482B0D502A00569F62 /* ReplinUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AA9D472B0D502A00569F62 /* ReplinUITestsLaunchTests.swift */; };
+		A4AA9D552B0D565400569F62 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AA9D542B0D565400569F62 /* TreeNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A45DE80C2B0D5F6400BCA91A /* FileInspector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileInspector.swift; sourceTree = "<group>"; };
+		A48D23042B10130200370109 /* FileUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileUtils.swift; sourceTree = "<group>"; };
+		A48D23062B10136B00370109 /* KeyValueItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyValueItem.swift; sourceTree = "<group>"; };
+		A48D23082B101E4B00370109 /* EditableText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditableText.swift; sourceTree = "<group>"; };
 		A4AA9D242B0D502900569F62 /* Replin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Replin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4AA9D272B0D502900569F62 /* ReplinApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplinApp.swift; sourceTree = "<group>"; };
 		A4AA9D292B0D502900569F62 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -47,6 +56,7 @@
 		A4AA9D412B0D502A00569F62 /* ReplinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReplinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4AA9D452B0D502A00569F62 /* ReplinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplinUITests.swift; sourceTree = "<group>"; };
 		A4AA9D472B0D502A00569F62 /* ReplinUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplinUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A4AA9D542B0D565400569F62 /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +84,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A48D23032B1012E700370109 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				A48D23042B10130200370109 /* FileUtils.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
 		A4AA9D1B2B0D502900569F62 = {
 			isa = PBXGroup;
 			children = (
@@ -97,12 +115,17 @@
 		A4AA9D262B0D502900569F62 /* Replin */ = {
 			isa = PBXGroup;
 			children = (
+				A48D23032B1012E700370109 /* utils */,
 				A4AA9D272B0D502900569F62 /* ReplinApp.swift */,
 				A4AA9D292B0D502900569F62 /* ContentView.swift */,
 				A4AA9D2B2B0D502900569F62 /* Item.swift */,
 				A4AA9D2D2B0D502A00569F62 /* Assets.xcassets */,
 				A4AA9D322B0D502A00569F62 /* Replin.entitlements */,
 				A4AA9D2F2B0D502A00569F62 /* Preview Content */,
+				A4AA9D542B0D565400569F62 /* TreeNode.swift */,
+				A45DE80C2B0D5F6400BCA91A /* FileInspector.swift */,
+				A48D23062B10136B00370109 /* KeyValueItem.swift */,
+				A48D23082B101E4B00370109 /* EditableText.swift */,
 			);
 			path = Replin;
 			sourceTree = "<group>";
@@ -262,9 +285,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A45DE80D2B0D5F6400BCA91A /* FileInspector.swift in Sources */,
 				A4AA9D2A2B0D502900569F62 /* ContentView.swift in Sources */,
 				A4AA9D2C2B0D502900569F62 /* Item.swift in Sources */,
+				A48D23052B10130200370109 /* FileUtils.swift in Sources */,
+				A48D23092B101E4B00370109 /* EditableText.swift in Sources */,
 				A4AA9D282B0D502900569F62 /* ReplinApp.swift in Sources */,
+				A4AA9D552B0D565400569F62 /* TreeNode.swift in Sources */,
+				A48D23072B10136B00370109 /* KeyValueItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
